@@ -111,7 +111,7 @@ The following are properties for `Genoverse.Track` and its MVC components. These
 > 
 > - `true` - features are moved vertically
 > - `false` - features are not moved vertically, and can overlap
-> `"labels"` - features are not moved vertically, but if `track.labels === true`, `track.labels` is set to `"separate"`, so labels can be bumped while features are not
+> - `"labels"` - features are not moved vertically, but if `track.labels === true`, `track.labels` is set to `"separate"`, so labels can be bumped while features are not
 
 #### depth (default `undefined`)
 > If set to an integer, this is the maximum bumping depth for features in the track. Features which need to be moved vertically to beyond this depth (e.g. if depth = 2 and three features have the same start and end) will not be drawn.
